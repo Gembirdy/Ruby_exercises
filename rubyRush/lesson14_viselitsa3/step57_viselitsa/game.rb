@@ -115,4 +115,4 @@ class Game
     def bad_letters
       @bad_letters
     end
-  end
+end

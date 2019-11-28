@@ -58,7 +58,7 @@ body1 = Bodybuilder.new
 body2 = Bodybuilder.new(2, 2, 2)
 body3 = Bodybuilder.new(3, 3, 3)
 
-for i in (1..5) do
+5.times do
     body1.pump('biceps')
     body1.pump('triceps')
     body1.pump('delta')

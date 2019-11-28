@@ -8,5 +8,4 @@ else
 end
 
 p = Math::PI
-
 puts "pi num is %.2f" %p

@@ -4,7 +4,7 @@ puts
 daysOfWeek = %w[понедельник вторник среда четверг пятница суббота воскресенье]
 puts daysOfWeek
 
-rainbowColors = {red: 'красный',orange: 'оранжевый', yellow: 'желтый',
+colors = {red: 'красный',orange: 'оранжевый', yellow: 'желтый',
                 green: 'зеленый', skyBlue: 'голубой', blue: 'синий',
                 violet: 'фиолетовый'}
 currentDayStatus = ''
@@ -25,7 +25,7 @@ puts currentDayStatus
 
 colors = %w[красный оранжевый желтый зеленый голубой синий фиолетовый]
 puts
-puts colors[rand(0..6)]
+puts colors.sample
 
 a = {x: 3, y: 9}
 b = {x: 5, y: 5}
@@ -40,8 +40,6 @@ help = 'help'
 puts help.reverse
 
 puts '    help    him   .       '
-helphim = '    help    him   '
-
-puts helphim.strip
+puts '    help    him   '.strip
 
 puts help + ' me'

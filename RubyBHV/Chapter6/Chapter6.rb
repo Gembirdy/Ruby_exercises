@@ -13,7 +13,6 @@ puts
 # p time.to_a
 require 'Date'
 p Date.new
-p
 require 'erb'
 
 template = "current time is #{Time.now}"
